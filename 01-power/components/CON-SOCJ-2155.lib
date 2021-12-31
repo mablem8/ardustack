@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model CON-SOCJ-2155
+#/248360/105706/2.49/3/4/Connector
+DEF CON-SOCJ-2155 J 0 30 Y Y 1 F N
+F0 "J" 650 50 50 H V L CNN
+F1 "CON-SOCJ-2155" 650 -50 50 H V L CNN
+F2 "CONSOCJ2155" 650 -150 50 H I L CNN
+F3 "http://www.produktinfo.conrad.com/datenblaetter/1500000-1599999/001582350-da-01-en-DC_EINBAUBUCHSE__SCHALTER_GESCHLOSSEN.pdf" 650 -250 50 H I L CNN
+F4 "DC Power Connectors Power Jack/Connector 2.1mm x 5.5mm" 650 -350 50 H I L CNN "Description"
+F5 "11" 650 -450 50 H I L CNN "Height"
+F6 "Gravitech" 650 -550 50 H I L CNN "Manufacturer_Name"
+F7 "CON-SOCJ-2155" 650 -650 50 H I L CNN "Manufacturer_Part_Number"
+F8 "992-CON-SOCJ-2155" 650 -750 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Gravitech/CON-SOCJ-2155?qs=fkzBJ5HM%252BdCcpvFQyQZHtA%3D%3D" 650 -850 50 H I L CNN "Mouser Price/Stock"
+F10 "" 650 -950 50 H I L CNN "Arrow Part Number"
+F11 "" 650 -1050 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 0 -200 100 R 50 50 0 0 P
+X ~ 3 0 -100 100 R 50 50 0 0 P
+P 5 0 1 6 200 40 200 -40 600 -40 600 40 200 40 N
+P 2 0 1 6 100 0 200 0 N
+P 3 0 1 6 100 -100 300 -100 300 -200 N
+P 4 0 1 6 100 -200 400 -200 500 -100 600 -200 N
+P 4 0 1 6 300 -200 280 -140 320 -140 300 -200 N
+ENDDRAW
+ENDDEF
+#
+#End Library

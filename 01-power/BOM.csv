@@ -1,0 +1,5 @@
+label,count,id,mouser,url,description
+IC1,1,MC7805CTG,863-MC7805CTG,https://componentsearchengine.com/part-view/MC7805CTG/ON%20Semiconductor,Linear voltage regulator; Through hole TO-220-3; 1 Output; Positive; 5V; 1A; Fixed; 7-35V in; 25mV load reg.; 20mV line reg.; 0 - +125 C
+IC2,1,LP2950-33LPRE3,595-LP2950-33LPRE3,https://componentsearchengine.com/part-view/LP2950-33LPRE3/Texas%20Instruments,LDO voltage regulator; Through hole TO-92-3; 1 Output; Positive; 3.3V; 100mA; Fixed; 2-30V in; 110mV dropout; 75uA quiescent; -40 - +125 C
+J1,1,CON-SOCJ-2155,992-CON-SOCJ-2155,https://componentsearchengine.com/part-view/CON-SOCJ-2155/Gravitech,DC power connector; 2.1mm inside diameter; 5.5mm outside diameter; solder lug; right angle; DC power jack
+C1; C2; C3,3,K105Z20Y5VF5TL2,594-K105Z20Y5VF5TL2,https://componentsearchengine.com/part-view/K105Z20Y5VF5TL2/Vishay,1 uF; radial termination; 50V rating; -20% +80% tolerance; -30 - +85 C
