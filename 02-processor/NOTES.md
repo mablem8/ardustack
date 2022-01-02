@@ -12,7 +12,7 @@ sudo apt install kicad
 
 * Choose `File > New Project from Template...`. Select
   "Arduino as Uno - Expansion" and choose "OK." Select the project location,
-  e.g. `$HOME/git-repos/ardustack/01-power/kicad/`.
+  e.g. `$HOME/git-repos/ardustack/02-processor/kicad/`.
   **Un-check "Create a new directory for the project" (bottom left)** and type
   the project name in the top text box (here: `ardustack-mcu`). Choose "Save."
 
@@ -68,14 +68,13 @@ sudo apt install kicad
 
 ## Generating Gerbers
 
-* Ensure that fill zones have been redrawn by running DRC (the bug icon)
-* Choose File > Plot... from Pcbnew
+* Ensure that fill zones have been redrawn, e.g. by running DRC (the bug icon)
+* Choose `File > Plot...` from the PCB Editor
   * Output directory: ../gerbers/
-  * Included Layers: F.Cu, In1.Cu, In2.Cu, B.Cu, F.Paste, B.Paste, F.SilkS,
-    B.SilkS, F.Mask, B.Mask, Edge.Cuts
-  * General Options: Plot footprint values, Plot footprint references, Exclude
-    PCB edge layer from other layers, Exclude pads from silkscreen
-  * Gerber Options: Use Protel filename extensions
+  * Included Layers: F.Cu, B.Cu, F.Silkscreen, B.Silkscreen, F.Mask, B.Mask,
+    Edge.Cuts
+  * General Options: Plot footprint values, Plot reference designators
+  * Gerber Options: Generate Gerber job file
 * Choose "Plot"
 * Choose "Generate Drill File"
   * Output folder: ../gerbers/
@@ -84,5 +83,5 @@ sudo apt install kicad
   * Map File Format: PostScript
   * Dill Origin: Absolute
   * Drill Units: Inches
-  * Zeros Format: Decimal format
+  * Zeros Format: Decimal format (recommended)
 * Choose "Generate Drill File"

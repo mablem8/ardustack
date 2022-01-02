@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "/home/pi/git-repos/ardustack/02-processor/kicad/ardustack-mcu.kicad_sch")
-    (date "Sat 01 Jan 2022 06:12:00 PM EST")
+    (date "Sun 02 Jan 2022 05:18:17 PM EST")
     (tool "Eeschema 6.0.0-d3dd2cf0fa~116~ubuntu21.10.1")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
@@ -545,10 +545,10 @@
       (node (ref "P1") (pin "6") (pinfunction "Pin_6") (pintype "passive"))
       (node (ref "P1") (pin "7") (pinfunction "Pin_7") (pintype "passive"))
       (node (ref "P3") (pin "4") (pinfunction "Pin_4") (pintype "passive")))
-    (net (code "30") (name "Net-(R1-Pad1)")
+    (net (code "30") (name "Net-(J1-Pad2)")
       (node (ref "J1") (pin "2") (pinfunction "2") (pintype "passive"))
       (node (ref "R1") (pin "1") (pintype "passive")))
-    (net (code "31") (name "Net-(R2-Pad1)")
+    (net (code "31") (name "Net-(J1-Pad3)")
       (node (ref "J1") (pin "3") (pinfunction "3") (pintype "passive"))
       (node (ref "R2") (pin "1") (pintype "passive")))
     (net (code "32") (name "unconnected-(P1-Pad1)")
