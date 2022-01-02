@@ -1,0 +1,7 @@
+label,count,id,mouser,url,description
+IC1,1,ATMEGA328P-PU,556-ATMEGA328P-PU,https://componentsearchengine.com/part-view/ATMEGA328P-PU/Microchip,8-bit MCU; Through hole; PDIP-28; 32 kB program memory; 2 kB data RAM; 20 MHz maximum
+Y1,1,ABL-16.000MHZ-B2,815-ABL-16-B2,https://componentsearchengine.com/part-view/ABL-16.000MHZ-B2/ABRACON,Crystal; Radial; HC-49/US; 18pF load capacitance; 16MHz frequency; 20PPM tolerance; 50PPM freq. Stab.; 40 Ohm ESR
+C1,1,K105Z20Y5VF5TL2,594-K105Z20Y5VF5TL2,https://componentsearchengine.com/part-view/K105Z20Y5VF5TL2/Vishay,1 uF; radial termination; 50V rating; -20% +80% tolerance; -30 - +85 C
+C2; C3,2,K220J15C0GF5TL2,594-K220J15C0GF5TL2,https://componentsearchengine.com/part-view/K220J15C0GF5TL2/Vishay,22 pF; radial termination; 50V rating; 5% tolerance; -55 - +125 C
+R1; R2,2,CFR-25JR-52-10K,603-CFR-25JR-5210K,https://componentsearchengine.com/part-view/CFR-25JR-52-10K/YAGEO%20(PHYCOMP),10 kOhm; axial termination; 250V rating; 5% tolerance; 250mW power rating; -55 - +155 C
+J1,1,1-2199298-9,571-1-2199298-9,https://componentsearchengine.com/part-view/1-2199298-9/TE%20Connectivity,Through hole; socket pins; 28 position; 2 row; 2.54 mm pitch; 7.62 mm row spacing
