@@ -778,7 +778,7 @@
 
   (footprint "ardustack-mcu:emblem" (layer "B.Cu")
     (tedit 61D21FC2) (tstamp 802bd717-75a4-4efc-bdc3-ab512c6bce65)
-    (at 123.8 108.8 180)
+    (at 123.8 109 180)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0 0) (layer "B.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
@@ -5851,7 +5851,7 @@
 
   (footprint "ardustack-mcu:name_plate" (layer "B.Cu")
     (tedit 61D223B4) (tstamp 8c964be6-6c78-49c2-9297-d6e2f99f7949)
-    (at 123.8 88.8 180)
+    (at 123.8 89.4 180)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0 0) (layer "B.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
@@ -6497,6 +6497,9 @@
   (gr_line (start 110.998 126.365) (end 177.038 126.365) (layer "Edge.Cuts") (width 0.15) (tstamp ee875b48-fd53-4078-8691-a869a2034285))
   (gr_line (start 175.514 73.025) (end 110.998 73.025) (layer "Edge.Cuts") (width 0.15) (tstamp f58b1d55-3287-4b62-b831-93701347c220))
   (gr_line (start 177.038 85.979) (end 177.038 74.549) (layer "Edge.Cuts") (width 0.15) (tstamp fa65bdc6-e1a3-4c56-9521-8435273a1be3))
+  (gr_text "ARDUSTACK MCU PCB v0.9.0" (at 123.7 81.4) (layer "B.SilkS") (tstamp d1c19c11-0a13-4237-b6b4-fb2ef1db7c6d)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+  )
   (gr_text "4" (at 164.338 79.2 90) (layer "F.SilkS") (tstamp 04716587-a44e-418d-ba57-60afa7c0605e)
     (effects (font (size 1 1) (thickness 0.15)))
   )
