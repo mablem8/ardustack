@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "/home/pi/git-repos/ardustack/03-input-output/kicad/ardustack-io.kicad_sch")
-    (date "Sun 02 Jan 2022 01:50:42 PM EST")
+    (date "Wed 12 Jan 2022 07:33:46 PM EST")
     (tool "Eeschema 6.0.0-d3dd2cf0fa~116~ubuntu21.10.1")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
@@ -415,7 +415,6 @@
     (net (code "1") (name "+3V3")
       (node (ref "P1") (pin "4") (pinfunction "Pin_4") (pintype "passive")))
     (net (code "2") (name "+5V")
-      (node (ref "J1") (pin "3") (pinfunction "3") (pintype "passive"))
       (node (ref "P1") (pin "5") (pinfunction "Pin_5") (pintype "passive"))
       (node (ref "R1") (pin "1") (pintype "passive")))
     (net (code "3") (name "/0(Rx)")
@@ -472,6 +471,7 @@
       (node (ref "S1") (pin "1") (pinfunction "NO_1") (pintype "passive"))
       (node (ref "S1") (pin "2") (pinfunction "NO_2") (pintype "passive")))
     (net (code "26") (name "/Vin")
+      (node (ref "J1") (pin "3") (pinfunction "3") (pintype "passive"))
       (node (ref "P1") (pin "8") (pinfunction "Pin_8") (pintype "passive")))
     (net (code "27") (name "GND")
       (node (ref "J1") (pin "1") (pinfunction "1") (pintype "passive"))

@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,6.0.0-d3dd2cf0fa~116~ubuntu21.10.1*%
-%TF.CreationDate,2022-01-02T17:44:58-05:00*%
+%TF.CreationDate,2022-01-12T20:58:04-05:00*%
 %TF.ProjectId,ardustack-io,61726475-7374-4616-936b-2d696f2e6b69,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L2,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 6.0.0-d3dd2cf0fa~116~ubuntu21.10.1) date 2022-01-02 17:44:58*
+G04 Created by KiCad (PCBNEW 6.0.0-d3dd2cf0fa~116~ubuntu21.10.1) date 2022-01-12 20:58:04*
 %MOMM*%
 %LPD*%
 G01*
@@ -190,7 +190,7 @@ X122400000Y-97750000D03*
 %TO.P,J1,2,2*%
 X122400000Y-95210000D03*
 %TO.P,J1,3,3*%
-%TO.N,+5V*%
+%TO.N,/Vin*%
 X122400000Y-92670000D03*
 %TO.P,J1,4,4*%
 %TO.N,/0(Rx)*%

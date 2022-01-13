@@ -955,7 +955,7 @@
   )
 
   (no_connect (at 267.97 30.48) (uuid 1d6c2d6c-bee0-401d-9749-98f17833afdd))
-  (no_connect (at 267.97 33.02) (uuid 1d6c2d6c-bee0-401d-9749-98f17833afdd))
+  (no_connect (at 267.97 33.02) (uuid 1d6c2d6c-bee0-401d-9749-98f17833afde))
   (no_connect (at 279.4 21.59) (uuid 1e6b0158-998f-479f-b5f3-a9a5c4344aa5))
   (no_connect (at 274.32 21.59) (uuid 21366241-88bb-42b5-950a-a4754adb3a1f))
   (no_connect (at 276.86 21.59) (uuid 758fd30e-3356-4227-a550-77c711885a43))
@@ -1200,6 +1200,10 @@
   (label "0(Rx)" (at 267.97 76.2 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 1d026952-7e84-42bb-9c7c-74028458afef)
+  )
+  (label "Vin" (at 101.6 119.38 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 1d6c2d6c-bee0-401d-9749-98f17833afdd)
   )
   (label "A4(SDA)" (at 226.06 73.66 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
@@ -1731,22 +1735,6 @@
     (pin "6" (uuid c0554f61-4bac-4646-97a0-2fdffaf4d364))
   )
 
-  (symbol (lib_id "power:+5V") (at 101.6 119.38 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 7ee42005-9b48-4c21-8e5a-15d6306c2fc3)
-    (property "Reference" "#PWR05" (id 0) (at 101.6 123.19 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (id 1) (at 101.6 114.3 0))
-    (property "Footprint" "" (id 2) (at 101.6 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 101.6 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d13e4b51-3ba9-4216-8e14-6b1fec3c089f))
-  )
-
   (symbol (lib_id "ardustack-io:CFR-25JR-52-10K") (at 111.76 66.04 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c296f6c4-d877-4949-9488-ed1f402b18fa)
@@ -1854,9 +1842,6 @@
     )
     (path "/00000000-0000-0000-0000-000056d70cff"
       (reference "#PWR04") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/7ee42005-9b48-4c21-8e5a-15d6306c2fc3"
-      (reference "#PWR05") (unit 1) (value "+5V") (footprint "")
     )
     (path "/efa43d59-2d48-4937-9902-b541a7d28faa"
       (reference "#PWR06") (unit 1) (value "+5V") (footprint "")
