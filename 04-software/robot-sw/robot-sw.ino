@@ -17,7 +17,7 @@ void setup() {
 }
 
 void loop() {
-  while(tailServo.read()<105) {
+  while(tailServo.read()<115) {
     tailServo.write(tailServo.read()+1);
     delay(50);
   }
@@ -27,7 +27,7 @@ void loop() {
     delay(50);
   }
   delay(200);
-  while(tailServo.read()>95) {
+  while(tailServo.read()>85) {
     tailServo.write(tailServo.read()-1);
     delay(50);
   }
